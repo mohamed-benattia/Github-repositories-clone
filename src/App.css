@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.userRepo{
+  display: flex;
+  margin: 30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user-info{
+  background-color: #fff;
+  width: 30%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.repositories-container {
+  width: 100%;
+  justify-content: center;
+  margin: 30px ;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+i {
+  color: #6a6c6eb7;
+}
+.repo {
+  width:85%;
+  height: 110px;
+  border-top: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.5s ease-in;
+}
+
+.repo:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-height: 1.5rem;
+  max-height: 1.5rem;
+}
+.title > a {
+  color: #055abb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.description {
+  font-size: 14px;
+  color: rgb(27, 27, 27);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.5rem;
+  max-height: 3rem;
+}
+.subitem {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 12px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
