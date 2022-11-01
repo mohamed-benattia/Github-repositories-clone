@@ -7,7 +7,7 @@ This application was deployed to heroku [https://github-repositories-clone.herok
 # How to run
 
 Clone the project from github to your local machine using :
-### `git clone https://github.com/mohamedbenattia99/MVST-coding-test.git`
+### `git clone https://github.com/mohamedbenattia99/Github-repositories-clone.git`
 
 Then, you have to enter to the project directory on your local machine and install dependencies using :
 ### `npm install`
