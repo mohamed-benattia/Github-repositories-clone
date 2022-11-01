@@ -1,6 +1,4 @@
-import React from "react";
-
-
+//This is a single repository component
 const Repository = ({ repo, user }) => (
   <div className="repo">
     <div>

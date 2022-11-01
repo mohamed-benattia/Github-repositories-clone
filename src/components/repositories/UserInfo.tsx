@@ -1,5 +1,6 @@
 import React from "react";
 
+//A sidebar showing user information
 const UserInfo = ({ user }) => (
   <div className="user-info">
     <img

@@ -1,0 +1,12 @@
+version: '3'
+services:
+  github-repositories:
+    build:
+      context: .
+    image: github-repositories
+    
+    ports:
+      - "3000:3000"
+    container_name: github-repositories
+    stdin_open: true
+    

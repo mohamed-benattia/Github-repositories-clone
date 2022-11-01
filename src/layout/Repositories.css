@@ -1,0 +1,68 @@
+.userRepo{
+    display: flex;
+    margin: 30px;
+  }
+  .user-info{
+    background-color: #fff;
+    width: 30%;
+  }
+  .repositories-container {
+    width: 100%;
+    justify-content: center;
+    margin: 30px ;
+    
+  }
+  i {
+    color: #6a6c6eb7;
+  }
+  .repo {
+    width:85%;
+    height: 110px;
+    border-top: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.5s ease-in;
+  }
+  
+  .repo:hover {
+    transform: scale(1.05, 1.05);
+  }
+  
+  .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 1.5rem;
+    max-height: 1.5rem;
+  }
+  .title > a {
+    color: #055abb;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: rgb(27, 27, 27);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.5rem;
+    max-height: 3rem;
+  }
+  .subitem {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  

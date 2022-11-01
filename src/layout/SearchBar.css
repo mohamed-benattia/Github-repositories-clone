@@ -1,0 +1,12 @@
+.search {
+    position: center;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    position: center;
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    border-color: black;
+}

@@ -1,67 +1,66 @@
-.userRepo{
-  display: flex;
-  margin: 30px;
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+:root {
+  --blue: #0e0620;
+  --white: #fff;
+  --green: #2ccf6d;
 }
-.user-info{
-  background-color: #fff;
-  width: 30%;
+
+button {
+  font-family:"Nunito Sans";
 }
-.repositories-container {
+ul {
+  list-style-type: none;
+  padding-inline-start: 35px;
+}
+svg {
   width: 100%;
-  justify-content: center;
-  margin: 30px ;
-  
+  visibility: hidden;
 }
-i {
-  color: #6a6c6eb7;
+h1 {
+  font-size: 7.5em;
+  margin: 15px 0px;
+  font-weight:bold;
 }
-.repo {
-  width:85%;
-  height: 110px;
-  border-top: solid 1px #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition: transform 0.5s ease-in;
+h2 {
+  font-weight:bold;
+}
+.home-title {
+  width: 80%;
+  position: center;
+  margin: 40px;
 }
 
-.repo:hover {
-  transform: scale(1.05, 1.05);
+div > span {
+  color: #000;
+  font-size: large;
+  font-weight: 600;
 }
-
-.title {
+.notfound-container {
+  margin: auto;
+  width: 50%;
+    padding: 10px;
+}
+.btn {
+  z-index: 1;
   overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  line-height: 1.5rem;
-  max-height: 1.5rem;
-}
-.title > a {
-  color: #055abb;
-  font-weight: bold;
+  background: black;
+  position: relative;
+  padding: 8px 50px;
+  border-radius: 30px;
   cursor: pointer;
+  font-size: 1em;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+  font-weight: bold;
+  margin: 5px 0px;
 }
 
-.description {
-  font-size: 14px;
-  color: rgb(27, 27, 27);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-height: 1.5rem;
-  max-height: 3rem;
+.btn:hover {
+  color: var(--white);
+  background: var(--green);
+  transition: 0.2s ease;
 }
-.subitem {
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  margin-top: 10px;
-  margin-right: 10px;
+.btn:hover:before {
+  width: 100%;
 }
+
