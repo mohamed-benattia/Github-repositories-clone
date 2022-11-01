@@ -2,6 +2,8 @@
 
 This project is a Github repositories clone with search functionality.
 The project uses THE GITHUB API. 
+
+This application was deployed to heroku [https://github-repositories-clone.herokuapp.com/](https://github-repositories-clone.herokuapp.com/)
 # How to run
 
 Clone the project from github to your local machine using :
